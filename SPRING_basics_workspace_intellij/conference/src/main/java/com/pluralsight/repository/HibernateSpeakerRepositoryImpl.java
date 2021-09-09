@@ -16,4 +16,7 @@ public class HibernateSpeakerRepositoryImpl implements SpeakerRepository {
         speakers.add(speaker);
         return speakers;
     }
+    public void classSpecificMethod(){
+        System.out.println("class specific");
+    }
 }
